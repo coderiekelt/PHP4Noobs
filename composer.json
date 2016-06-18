@@ -1,0 +1,24 @@
+{
+    "name": "coderiekelt/php4noobs",
+    "type": "library",
+    "description": "A library to make simple PHP tasks even easier.",
+    "keywords": ["database", "mysql", "PDO"],
+    "homepage": "https://github.com/coderiekelt/PHP4Noobs/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riekelt Brands",
+            "email": "riekelturk@yahoo.nl",
+            "homepage": "http://riekeltbrands.nl/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHP4Noobs": "src"
+        }
+    }
+}
